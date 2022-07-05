@@ -5,8 +5,8 @@
 }
 
 :root {
-  --blue-1: #3C429E;
-  --blue-2: #4C52AD;
+  --blue-1: #301b43;
+  --blue-2: #4e1550;
   --yellow-1: #FAC742;
   --white: #FFF;
   --grey-1: #EDEDED;
@@ -28,6 +28,7 @@ body {
 .container {
   width: 400px;
   height: 80vh;
+  min-height: 450px;
   background-color: var(--blue-2);
   border-radius: 20px;
   box-shadow: 10px 10px 10px var(--shadow-dark);
@@ -41,14 +42,14 @@ body {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .upper-data img {
   position: absolute;
   height: 100%;
-  width: 100%;
+  min-width: 100%;
 }
 
 .lower-data {
@@ -58,7 +59,7 @@ body {
   height: 50%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  padding: 1em;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -78,12 +79,12 @@ body {
 .location {
   color: var(--white);
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .temperature {
   color: var(--white);
-  font-size: 4em;
+  font-size: 4rem;
   text-align: center;
   font-weight: 900;
 }
