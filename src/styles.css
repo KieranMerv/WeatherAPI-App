@@ -151,3 +151,15 @@ body {
   font-size: 0.8em;
   text-align: center;
 }
+
+.display-flex {
+  display: flex;
+}
+
+.display-flex-start {
+  justify-content: flex-start;
+}
+
+.footer-text-color {
+  color: white;
+}
