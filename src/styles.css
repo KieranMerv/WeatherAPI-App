@@ -163,3 +163,7 @@ body {
 .footer-text-color {
   color: white;
 }
+
+.footer-margin-top {
+  margin-top: 1rem;
+}
